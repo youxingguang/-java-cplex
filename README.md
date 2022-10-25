@@ -1,7 +1,9 @@
 # 在java中调用cplex
 ## 1. cplex的参考资料
 cplex是IBM旗下的产品，有提供官方参考文档：[cplex doc](https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex) 
+
 用户手册，[usrcplex.pdf](https://www.ibm.com/docs/en/SSSA5P_12.8.0/ilog.odms.studio.help/pdf/usrcplex.pdf)
+
 cplex studio 软件自带参考案例  cplex\examples\src\java 
 ## 2.cplex的建模框架
 ```
