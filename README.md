@@ -24,6 +24,6 @@ public class lp {
 
 }
 ```
-##cplex求解LP,MILP,QP,QCP示例
+## 3.cplex求解LP,MILP,QP,QCP示例
 
 
