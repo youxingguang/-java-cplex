@@ -1,7 +1,12 @@
 package solver;
-
 import ilog.concert.*;
 import ilog.cplex.*;
+/*
+ * min 6*x0+6.5*x1
+ * s.t. 20*x0+50*x1<=120
+ *      50*x0+40*x1<=150
+ *      x0,x1>=0
+ */
 
 public class lp {
 
@@ -11,7 +16,7 @@ public class lp {
 			//model.setOut(null);
 			
 
-			//定义决策变量x1,x2
+			//定义决策变量x0,x1
 			IloNumVar[] x=new IloNumVar[2];
 			for(int i=0;i<2;i++) {
 				x[i]=model.numVar(0, Double.MAX_VALUE);
