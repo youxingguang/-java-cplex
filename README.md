@@ -27,5 +27,6 @@ public class lp {
 }
 ```
 ## 3.cplex求解LP,MIP,QP,QCP示例
-
+### 3.1 cplex的三种建模方式
+(1) 按行建模,参考lp1.java
 
