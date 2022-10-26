@@ -1,4 +1,4 @@
-# 在java中调用cplex
+# 在java中调用cplex (1)
 ## 1. cplex的参考资料
 cplex是IBM旗下的产品，有提供官方参考文档：[cplex doc](https://www.ibm.com/docs/en/icos/12.8.0.0?topic=cplex) 
 
@@ -27,6 +27,9 @@ public class lp {
 }
 ```
 ## 3.cplex求解LP,MIP,QP,QCP示例
+编程环境： jdk 1.8,cplex 12.8
 ### 3.1 cplex的三种建模方式
-(1) 按行建模,参考lpbyRow.java
+<br>(1) 按行建模,参考lpbyRow.java;</br>
+(2) 按列建模,参考lpbyColumn.java;
+
 
